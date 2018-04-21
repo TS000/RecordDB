@@ -1,0 +1,26 @@
+{
+  "name": "recordsdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run create -- --watch",
+    "create": "wt create index --bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TS000/RecordDB.git"
+  },
+  "author": "Tyler Snell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TS000/RecordDB/issues"
+  },
+  "homepage": "https://github.com/TS000/RecordDB#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "webtask-tools": "^3.2.0"
+  }
+}
