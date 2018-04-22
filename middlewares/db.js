@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 // Grab our Crate
-const CrateSchema = require('../models/Crate')
+const CrateSchema = require('../models/crate')
 
 module.exports = {
 

@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 
 module.exports = new mongoose.Schema({
-    author: String,
-    content: String,
+    artist: String,
+    title: String,
     created_at: Date,
     id: mongoose.Schema.ObjectId
 })

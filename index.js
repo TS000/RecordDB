@@ -1,13 +1,13 @@
-var Express = require('express');
-var Webtask = require('webtask-tools');
+var Express = require('express')
+var Webtask = require('webtask-tools')
 var bodyParser = require('body-parser')
-var app = Express();
+var app = Express()
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // todo middlewares
-app.use(require('./middlewares/db').connectDisconnect);
-require('./routes/stories')(app);
+app.use(require('./middlewares/db').connectDisconnect)
+require('./routes/records')(app)
 
-module.exports = Webtask.fromExpress(app);
+module.exports = Webtask.fromExpress(app)
