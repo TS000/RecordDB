@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/TS000/RecordDB#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.18.3",
     "express": "^4.15.2",
-    "mongoose": "^4.9.5",
-    "webtask-tools": "^3.2.0"
+    "mongoose": "^4.13.17",
+    "webtask-tools": "^3.4.0"
   }
 }
